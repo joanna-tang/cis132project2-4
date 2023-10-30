@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+/* use to overwrite bootstrap default color */
 :root * {
   --bs-accordion-btn-bg: lightblue !important;
   --bs-accordion-active-bg: cadetblue  !important;
@@ -305,7 +307,7 @@ input:invalid {
 
 .accordion-body table {
   border: 1px solid black;
-  width: 80%;
+  width: 60%;
 }
 
 .accordion-body td {
